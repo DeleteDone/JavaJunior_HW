@@ -15,10 +15,10 @@ public class Main {
     public static void main(String[] args) {
 
         Animal[] animals = new Animal[]{
-                new Dog("Мухтар", 5, "Бульдог"),
-                new Dog("Рекс", 3, "Питбуль"),
-                new Cat("Барсик", 3, "Черный"),
-                new Cat("Пушок", 6, "Белый")
+                new Dog("Тайсон", 5, "Овчарка"),
+                new Dog("Барбос", 3, "Дог"),
+                new Cat("Тучка", 3, "Черный"),
+                new Cat("Снежок", 6, "Белый")
         };
 
         for (Animal animal : animals) {
